@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>Counters</title>
+
+    <!-- Odometr includes -->
+    <link
+      rel="stylesheet"
+      href="http://github.hubspot.com/odometer/themes/odometer-theme-car.css"
+    />
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+
+
+
+
+
+    <!-- Extra styles for this example -->
+    <style>
+      .odometer {
+        font-size: 50px;
+      }
+
+
+      body { background:#e6eeff !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+      .container {
+        background:  #e6eeff;
+      }
+
+      
+      .col-5 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    </style>
+
+
+
+
+
+  </head>
+  <bod class="body"y>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+
+ 
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Counters</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="counter2.html">2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="counter3.html">3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="counter8.html">8</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="all.html">all</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- navbar -->
+
+    <div class="container">
+      <div class="row">
+         <div class="col-12 text-center">
+            <h1>Counters</h1>
+         </div>
+      </div>
+    </div>
+ 
+
+
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-1"></div>
+
+        <div class="col-5">
+          <h2>Decimal Counter</h2>
+          <div id="odometer102" class="odometer">0</div>
+          <div id="odometer101" class="odometer">0</div>
+          <div id="odometer100" class="odometer">0</div>
+          <button type="button" class="btn btn-primary btn-lg" onclick="add10()">+</button>
+       </div>
+
+        <div class="col-5"></div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6"></div>
+        <div class="col-5"></div>
+
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
